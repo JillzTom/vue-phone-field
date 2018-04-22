@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<style scoped> 
+<style scoped>
   .phone-container{
     display: flex;
   }
@@ -26,6 +26,7 @@
   import 'cleave.js';
   import VueSelect from 'vue-select';
   require('cleave.js/dist/addons/cleave-phone.us');
+  import CountryCode from './country-code.js';
   export default{
     components: {VueSelect},
     props: ['value'],
@@ -36,7 +37,7 @@
           dial_code:"+1",
           name:"United States"
         },
-        list: require('./country-code.json'),
+        list: CountryCode,
         options: {
           phone: true,
           phoneRegionCode: 'US'

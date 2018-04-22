@@ -1,6 +1,6 @@
 {
   "name": "vue-phone-field",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Vue.js component for phone filed",
   "main": "dist/vue-phone-field.js",
   "scripts": {
